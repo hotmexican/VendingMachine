@@ -25,7 +25,7 @@ public class SoldState implements State{
         int count = vendingMachine.getProduct().getCount();
         vendingMachine.getProduct().setCount( count-1 );
         vendingMachine.reduceCoins( vendingMachine.getProduct().getPrice());
-        System.out.println("Buying....");
+        System.out.println("Buying...." + vendingMachine.getProduct().getName());
         System.out.flush();
         if(vendingMachine.getCoins()>0)
             vendingMachine.setState(vendingMachine.getInsertCoinState());

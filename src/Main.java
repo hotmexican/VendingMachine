@@ -7,7 +7,7 @@ public class Main {
     Map<String, Product> productMap = new HashMap<>();
 
     productMap.put("A1", new Product("Product1", 10, 4));
-    productMap.put("A2", new Product("Product2", 9, 3));
+    productMap.put("A2", new Product("Product2", 9, 1));
     productMap.put("A3", new Product("Product3", 12, 2));
     productMap.put("A4", new Product("Product4", 7, 1));
 
